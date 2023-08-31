@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Raleway:ital,wght@1,200&display=swap');
+
+body{
+    background-color: rgb(173, 30, 30);
+    color: rgb(215, 197, 197);
+    font-family: Raleway;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.imagen-api{
+    border: 5px solid yellow;
+    width: 80%;
+    height: 480px;
+    object-fit: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+button {
+    display: inline-block;
+    background-color: rgb(173, 30, 30) ;
+    color: yellow;
+    font-family: Raleway;
+    cursor: pointer;
+}
